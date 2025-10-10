@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* لون خلفية فاتح */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.balance {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #e6f7ff;
+    border-radius: 8px;
+    border-left: 5px solid #007bff;
+}
+
+#startTaskButton {
+    background-color: #007bff; /* أزرق تليجرام */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+#startTaskButton:hover {
+    background-color: #0056b3;
+}
+
+#statusMessage {
+    margin-top: 15px;
+    color: #28a745; /* لون أخضر للنجاح */
+}
